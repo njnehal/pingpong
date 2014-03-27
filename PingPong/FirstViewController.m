@@ -26,4 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)saveButtonPressed:(id)sender {
+    NSString *name = self.opponentName.text;
+    NSLog(name);
+
+    NSString *yourScore = self.yourScore.text;
+    NSLog(yourScore);
+    NSString *oppScore = self.opponentScore.text;
+    NSLog(oppScore);
+}
 @end
